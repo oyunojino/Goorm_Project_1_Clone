@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    width: 600px;
+}
+
+.form-box {
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.form-box form {
+    padding: 50px;
+}
+
+.form-box .img-box img{
+    max-width: 80px;
+}
+
+.form-box form h1 {
+    text-align: center;
+}
+
+.form-box form .name-box {
+    display: flex;
+}
+
+.form-box form .input-box {
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 30px;
+}
+
+.form-box form .input-box ion-icon {
+    position: absolute;
+    right: 5px;
+    font-size: 1.5em;
+    top: 40px;
+}
+
+.form-box form .input-box input {
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    border: none;
+    outline: none;
+}
+
+.form-box form .check-box {
+    margin: 30px;
+}
+.form-box form .check-box input{
+    margin-right: 5px;
+}
+
+.form-box form p {
+    padding: 20px;
+}
+
+.form-box form .btn-box {
+    padding: 20px;
+}
+
+.form-box form .btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    padding: 10px;
+}
