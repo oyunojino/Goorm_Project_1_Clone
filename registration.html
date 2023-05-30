@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Membership_registration</title>
+    <link rel="stylesheet" href="/css/membership/style.css">
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="form-box">
+            <form action="#" method="post">
+                <div class="img-box">
+                    <img src="/img/membership/logo.png">
+                </div>
+                <h1>Registration</h1>
+                <div class="name-box">
+                    <div class="input-box">
+                        <label for="given">given name</label>
+                        <input type="text" id="given" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="sur">surname</label>
+                        <input type="text" id="sur" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="pw">password</label>
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                    <input type="password" id="pw" required>
+                </div>
+                <div class="input-box">
+                    <label for="setting">setting</label>
+                    <input type="text" id="setting" list="sex" required>
+                    <datalist id="sex">
+                        <option value="male"></option>
+                        <option value="female"></option>
+                    </datalist>
+                </div>
+                <div class="input-box">
+                    <label for="birth">birth</label>
+                    <input type="date" id="birth" required>
+                </div>
+                <div class="check-box">
+                    <input type="checkbox" id="check">
+                    <label for="check">나이키의 <b>개인정보 처리방침</b> 및 <b>이용약관</b>에 동의합니다.</label>
+                </div>
+                <div class="btn-box">
+                    <button type="submit" class="btn">submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
