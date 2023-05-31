@@ -61,10 +61,40 @@
       margin: 0 auto;
       text-align: center;
     }
-    .aaa {
+    .box2 {
       box-sizing: border-box;
-      width: 730px;
+      width: 620px;
       height: 50%;
+      padding: 10px;
+    }
+    .menu-table th {
+      padding: 20px 60px;
+    }
+    .menu-table th a {
+      font-weight: 600;
+    }
+    .menu-table td {
+      padding: 4px 60px;
+    }
+    .menu-table td a {
+      color: #7f7f7f;
+      font-weight: 500;
+    }
+    .menu-table2 th {
+      font-size: small;
+      padding: 20px 60px;
+    }
+    .menu-table2 th a {
+      font-weight: 600;
+      color: #fff;
+    }
+    .menu-table2 td {
+      font-size: small;
+      padding: 4px 60px;
+    }
+    .menu-table2 td a {
+      color: #7f7f7f;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -92,7 +122,7 @@
 
     <!-- main menu -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light navebar-fixed-top">
         <a class="navbar-brand" href="#">
           <img src="/img/main/logo_nike.png" width="60" height="25" alt="logo_nike">
         </a>
@@ -164,6 +194,9 @@
     </div>
   </header>
   <section>
+
+
+    <!-- advertisements 1 -->
     <div class="container-fluid">
       <iframe width="100%" height="600px" src="https://www.youtube.com/embed/bCMDtmsey9c?controls=0&autoplay=1&mute=1&loop=1&playlist=bCMDtmsey9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div class="box m-5">
@@ -172,31 +205,123 @@
         <img src="/img/main/nike_qr.png" class="d-inline m-2" alt="">
       </div>
     </div>
+    <!-- advertisements 2 -->
     <div class="container-fluid">
-      <iframe width="100%" height="600ㅔㅌ" src="https://www.youtube.com/embed/y1Yps0j6Nmc?controls=0&autoplay=1&mute=1&loop=1&playlist=y1Yps0j6Nmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/y1Yps0j6Nmc?controls=0&autoplay=1&mute=1&loop=1&playlist=y1Yps0j6Nmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div class="box m-5">
         <h1><strong>영원을 쟁취하다</strong></h1>
         <p class="p-2">공이든, 골이든, 관중의 함성이든 원하는 건 무엇이든 다 차지하는 대한민국 축구 국가대표팀.<br>끝없이 영원을 쟁취해 나가는 이들의 열정을 느껴 보세요.</p>
         <button class="btn btn-dark">자세히 보기</button>
       </div>
     </div>
+    <!-- advertisements 3 -->
+    <div class="container-fluid">
+      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/ro-QNaKx8I8?controls=0&autoplay=1&mute=1&loop=1&playlist=ro-QNaKx8I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="box m-5">
+        <h1><strong>빛나는 우리의 여름</strong></h1>
+        <p class="p-2">자유롭게 움직이고, 모험에 도전하고, 새롭게 시작해 보세요.<br>썸머 에센셜 컬렉션의 다양한 제품과 컬러로 나만의 스타일을 발견해 보세요.</p>
+        <button class="btn btn-dark m-1">자세히 보기</button>
+        <button class="btn btn-dark m-1">구매하기</button>
+      </div>
+    </div>
+
+    <!-- slide -->
+    <div class="card-group m-5">
+      <div class="card mt-1 mx-1" style="border-color: #fff;">
+        <img src="/img/main/ad/ad_1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text"><strong>모든 순간을 빛낼 티셔츠</strong></h5>
+          <button class="btn btn-dark mt-3">구매하기</button>
+        </div>
+      </div>
+      <div class="card mt-1 mx-1" style="border-color: #fff;">
+        <img src="/img/main/ad/ad_2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text"><strong>새로운 모험을 위한 쇼츠</strong></h5>
+        <button class="btn btn-dark mt-3">구매하기</button>
+        </div>
+      </div>
+      <div class="card mt-1 mx-1" style="border-color: #fff;">
+        <img src="/img/main/ad/ad_3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text"><strong>더 많은 즐거움을 위한 샌들</strong></h5>
+        <button class="btn btn-dark mt-3">구매하기</button>
+        </div>
+      </div>
+    </div>
+    <!-- progress bar -->
+    <div class="progress mx-5" style="height: 8px; margin-bottom: 100px; background-color: #fff;">
+      <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #757575;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <!-- advertisements 4 -->
+    <div class="container-fluid">
+      <h5><strong>여름을 위한 스타일링 추천</strong></h5>
+      <iframe width="100%" height="600px" src="https://www.youtube.com/embed/Go4xrkpTjtU?controls=0&autoplay=1&mute=1&loop=1&playlist=Go4xrkpTjtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="box m-5">
+        <h1><strong>썸머 트레일 러닝 스타일링</strong></h1>
+        <p class="p-2">여름에도 시원한 트레일 러닝을 즐겨 보세요.</p>
+        <button class="btn btn-dark m-1">자세히 보기</button>
+        <button class="btn btn-dark m-1">구매하기</button>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <table class="menu-table my-5" style="margin: 0 auto;">
+        <tr>
+          <th><a href="#">Featured</a></th>
+          <th><a href="#">신발</a></th>
+          <th><a href="#">의류</a></th>
+          <th><a href="#">Kids</a></th>
+        </tr>
+        <tr>
+          <td><a href="#">에어 포스 1</a></td>
+          <td><a href="#">전체 보기</a></td>
+          <td><a href="#">전체 보기</a></td>
+          <td><a href="#">베이비 신발</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">조던 1</a></td>
+          <td><a href="#">조던 신발</a></td>
+          <td><a href="#">탑 & 티셔츠</a></td>
+          <td><a href="#">키즈 신발</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">에어맥스 97</a></td>
+          <td><a href="#">러닝 신발</a></td>
+          <td><a href="#">쇼츠</a></td>
+          <td><a href="#">키즈 농구 신발</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">에어맥스 90</a></td>
+          <td><a href="#">농구 신발</a></td>
+          <td><a href="#">후디 & 풀오버</a></td>
+          <td><a href="#">키즈 러닝 신발</a></td>
+        </tr>
+      </table>
+    </div>
+
   </section>
   <footer>
-    <div class="palegoldenrod">
-      <h1>dkdkdkkdk</h1>
+    <div>
+      <div class="palegoldenrod" style="width: 1300px; height: 250px; margin: 0 auto;">
+
+        
+      </div>
     </div>
-    <div class="plum">
-        <img src="/img/main/heart.png" class="d-inline m-2" width="20px" height="20px" alt="">
-        <p class="d-inline m-2">대한민국</p>
-        <p class="d-inline m-2">© 2023 Nike, Inc. All Rights Reserved</p>
+
+    <div class="plum" style="width: 1300px; height: 200px; margin: 0 auto;">
+        <img src="/img/main/point.png" class="d-inline ml-3" width="15px" height="15px" alt="">
+        <p class="d-inline ml-2" style="font-size: x-small; color: #fff;">대한민국</p>
+        <p class="d-inline ml-2" style="font-size: x-small; color: #fff;">© 2023 Nike, Inc. All Rights Reserved</p>
         <hr style="border-color: #fff;">
-        <div class="float-left m-2 palegreen aaa">
+        <div class="float-left mx-2 palegreen box2" style="font-size: x-small; color: #fff;">
           <p>(유)나이키코리아 대표 Kimberlee Lynn Chang Mendes, 킴벌리 린 창 멘데스 | 서울 강남구 테헤란로 152 강남파이낸스센터 30층 | 통신판매업신고번호 2011-서울강남-03461 | 등록번호 220-88-09068사업자 정보 확인</p>
             <br>
           <p>고객센터 전화 문의 080-022-0182 FAX 02-6744-5880 | 이메일 service@nike.co.kr | 호스팅서비스사업자 (유)나이키코리아</p>
         </div>
-        <div class="float-right m-2 palegreen aaa">
-          <p>현금 등으로 결제 시 안전 거래를 위해  나이키 쇼핑몰에서 가입하신 한국결제네트웍스 유한회사의 구매안전 서비스(결제대금예치)를 이용하실 수 있습니다.</p>
+        <div class="float-right mx-2 palegreen box2" style="font-size: x-small; color: #fff;">
+          <p>현금 등으로 결제 시 안전 거래를 위해 나이키 쇼핑몰에서 가입하신 한국결제네트웍스 유한회사의 구매안전 서비스(결제대금예치)를 이용하실 수 있습니다.</p>
             <br>
           <p>콘텐츠산업진흥법에 의한 콘텐츠 보호 안내자세히 보기</p>
         </div>
