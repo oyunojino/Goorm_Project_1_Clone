@@ -41,15 +41,15 @@ section {
 
 .form-box form .input-box {
     position: relative;
-    border-bottom: 2px solid black;
     margin: 30px;
 }
 
 .form-box form .input-box ion-icon {
     position: absolute;
-    right: 5px;
+    right: 10px;
     font-size: 1.5em;
     top: 40px;
+    transition: 0.3s ease;
 }
 
 .form-box form .input-box input {
@@ -57,6 +57,31 @@ section {
     padding: 20px 40px 20px 20px;
     border: none;
     outline: none;
+    border-bottom: 3px solid black;
+    transition: 0.3s ease;
+}
+
+.form-box form .input-box select {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.form-box form .input-box .date-input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+.form-box form .input-box input:focus,
+.form-box form .input-box select:focus,
+.form-box form .input-box .date-input:focus {
+    border-bottom: 3px solid #bababa;
+    color: #bababa;
 }
 
 .form-box form .check-box {
@@ -83,4 +108,9 @@ section {
     background: black;
     color: white;
     padding: 10px;
+    transition: 0.3s ease;
+}
+
+.form-box form .btn:hover {
+    background: #bababa;
 }

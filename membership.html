@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- 로그인 폼 -->
     <title>Membership_login</title>
     <link rel="stylesheet" href="/css/membership/style.css">
 </head>
@@ -9,7 +10,7 @@
     <header></header>
     <section>
         <div class="form-box">
-            <form action="#" method="post">
+            <form action="registration.html">
                 <div class="img-box">
                     <img src="/img/membership/logo.png">
                 </div>
@@ -17,7 +18,7 @@
                 <div class="input-box">
                     <label for="mail">email</label>
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="email" id="mail" required>
+                    <input type="email" id="mail" required onfocus="changeIconColor('mail-outline');" onblur="changeIconColorBack('mail-outline');">
                 </div>
                 <p class="text">계속 진행하면 나이키의 <b>개인정보 처리방침</b> 및 <b>이용약관</b>에 동의하게 됩니다.</p>
                 <div class="btn-box">
@@ -29,6 +30,19 @@
     <footer></footer>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript">
+        function changeIconColor(name) {
+            let attr = name;
+            let icon = document.querySelector('[name=' + attr + ']');
+            icon.style.color = "#bababa";
+        }
+
+        function changeIconColorBack(name) {
+            let attr = name;
+            let icon = document.querySelector('[name=' + attr + ']');
+            icon.style.color = "black";
+        }
+    </script>
 </body>
 </html>
